@@ -16,5 +16,4 @@ jobs:
           fqbn: 'arduino:avr:uno'
           sketch-paths: 'examples'
           libraries: |
-            - source-path: .
-            - name: Arduino 
+            - source-path: . 
