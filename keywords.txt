@@ -1,0 +1,32 @@
+#######################################
+# 语法着色映射
+#######################################
+
+#######################################
+# 类 (KEYWORD1)
+#######################################
+
+BMP280	KEYWORD1
+
+#######################################
+# 方法和函数 (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+readTemperature	KEYWORD2
+readPressure	KEYWORD2
+readAltitude	KEYWORD2
+
+#######################################
+# 常量 (LITERAL1)
+#######################################
+
+BMP280_REG_CHIPID	LITERAL1
+BMP280_REG_RESET	LITERAL1
+BMP280_REG_STATUS	LITERAL1
+BMP280_REG_CTRL	LITERAL1
+BMP280_REG_CONFIG	LITERAL1
+BMP280_REG_PRESS	LITERAL1
+BMP280_REG_TEMP	LITERAL1
+BMP280_REG_CALIB	LITERAL1
+BMP280_CHIPID	LITERAL1 
