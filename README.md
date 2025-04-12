@@ -1,13 +1,13 @@
 # BMP280 Arduino Software I2C Library
 
-[ÖÐÎÄ°æ README](README_CN.md)
+[ä¸­æ–‡ç‰ˆ README](README_CN.md)
 
 This is an Arduino library for the BMP280 barometric pressure sensor using software I2C communication. It does not rely on hardware I2C interface and can use any two digital pins to communicate with the sensor.
 
 ## Features
 
 - Software I2C communication, can connect to any digital pins
-- Temperature reading (¡ãC)
+- Temperature reading (Â°C)
 - Pressure reading (Pa)
 - Altitude calculation (meters)
 - Support for different oversampling settings
@@ -65,7 +65,7 @@ void loop() {
   // Display readings
   Serial.print("Temperature: ");
   Serial.print(temperature);
-  Serial.println(" ¡ãC");
+  Serial.println(" Â°C");
   
   Serial.print("Pressure: ");
   Serial.print(pressure / 100.0F);  // Convert to hPa
